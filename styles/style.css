@@ -107,6 +107,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   margin-right: 24px;
+  cursor: pointer;
 }
 .banner-btn2 {
   width: 185px;
@@ -118,9 +119,10 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
 }
-.banner-image{
-    margin: 20px 240px 0 90px;
+.banner-image {
+  margin: 20px 240px 0 90px;
 }
 
 /* responsive media query */
@@ -131,6 +133,9 @@ body {
   .navbar-container,
   .navbar-right > ul {
     flex-direction: column;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
   }
   .navbar-right > ul {
     margin-top: 20px;
@@ -143,12 +148,24 @@ body {
   .navbar-right li a {
     margin-right: 0;
   }
+  .banner-image img,
+  .banner-content {
+    width: 400px;
+  }
+  .banner-image img {
+    margin-left: 150px;
+    margin-bottom: 24px;
+  }
+  .banner-content {
+    padding-left: 20px;
+  }
 }
 
 /* for medium devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .navbar-container {
+  .navbar-container,
+  .banner-container {
     flex-direction: column;
   }
   .navbar-container {
@@ -159,5 +176,18 @@ body {
   }
   .navbar-right {
     margin: auto 100px;
+  }
+  .banner-image img,
+  .banner-content {
+    width: 450px;
+  }
+  .banner-container {
+    margin-top: 24px;
+  }
+  .banner-content {
+    padding-right: 70px;
+  }
+  .banner-image img {
+    margin-left: 130px;
   }
 }
