@@ -2,3 +2,54 @@
 * {
   margin: 0;
 }
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* navbar related styles */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 37px 240px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.navbar-right > ul {
+  display: flex;
+  align-items: center;
+}
+.navbar-icon {
+  margin: 7px 20px 45px 0;
+}
+.navbar-title {
+  margin-bottom: 37px;
+  color: #0b0223;
+  font-size: 45px;
+  font-weight: 800;
+}
+.gamer-text {
+  color: #ff42a5;
+}
+.navbar-right li {
+  list-style: none;
+}
+.navbar-right li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+.navbar-btn {
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgba(11, 2, 35, 0.1);
+  color: #3c354f;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
