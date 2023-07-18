@@ -8,7 +8,7 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-/* navbar related styles starts*/
+/* navbar related styles*/
 
 .navbar-container {
   display: flex;
@@ -62,7 +62,66 @@ body {
   cursor: pointer;
 }
 
-/* navbar related styles ends*/
+/* banner related styles */
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  /* gap: 70px; */
+}
+.banner-content {
+  width: 901px;
+  height: 700px;
+  background-image: url("/images/Group\ 14.png");
+  background-position: left;
+  padding-top: 210px;
+  padding-left: 240px;
+}
+.banner-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-stats {
+  color: #f948b2;
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.banner-description {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.banner-btn1 {
+  width: 156px;
+  height: 65px;
+  border-radius: 48px;
+  border-style: none;
+  background-color: #ff42a5;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
+.banner-btn2 {
+  width: 185px;
+  height: 65px;
+  border-radius: 48px;
+  border-style: none;
+  background-color: #4ec5f7;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-image{
+    margin: 20px 240px 0 90px;
+}
 
 /* responsive media query */
 
