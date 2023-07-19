@@ -713,4 +713,35 @@ footer {
     margin: 10px;
     margin-left: 50px;
   }
+  footer {
+    width: 768px;
+  }
+  .footer-info,
+  .footer-icon,
+  .footer-policy {
+    width: 720px;
+  }
+  .footer-heading,
+  .footer-info,
+  .footer-icon,
+  .footer-policy,
+  .footer-ending {
+    padding: 0;
+  }
+  .footer-heading {
+    padding-top: 30px;
+    padding-left: 245px;
+  }
+  .footer-info,
+  .footer-icon,
+  .footer-policy{
+    text-align: center;
+    padding-top: 30px;
+  }
+  .footer-ending {
+    padding-top: 90px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
 }
