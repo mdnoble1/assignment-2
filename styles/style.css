@@ -222,11 +222,14 @@ body {
   }
   .gamer-img img,
   .gamer-description {
-    width: 420px;
+    width: 400px;
   }
   .gamer-img,
   .gamer-content {
     margin: 0;
+  }
+  .gamer-description{
+    margin-left: 10px;
   }
 }
 
