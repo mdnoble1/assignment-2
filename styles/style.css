@@ -246,7 +246,8 @@ body {
 @media screen and (max-width: 576px) {
   .navbar-container,
   .navbar-right > ul,
-  .gamer-container {
+  .gamer-container,
+  .play-instant-container {
     flex-direction: column;
   }
   .banner-container {
@@ -303,6 +304,24 @@ body {
     text-align: center;
     margin-bottom: 24px;
   }
+  .play-instant-img .instant-img1 {
+    width: 300px;
+    height: 315px;
+    margin-left: 60px;
+  }
+  .play-instant-img .instant-img2 {
+    width: 159px;
+    height: 182px;
+    bottom: 100px;
+  }
+  .play-instant-container {
+    margin: 0 0 0 10px;
+  }
+  .play-instant-content {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
 }
 
 /* for medium devices */
@@ -310,7 +329,8 @@ body {
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .navbar-container,
   .banner-container,
-  .gamer-container {
+  .gamer-container,
+  .play-instant-container {
     flex-direction: column;
   }
   .navbar-container {
@@ -338,7 +358,8 @@ body {
     padding: 0;
   }
 
-  .banner-image img {
+  .banner-image img,
+  .play-instant-container {
     margin: 0;
   }
   .banner-image {
@@ -379,5 +400,12 @@ body {
     text-align: left;
     margin-bottom: 24px;
     margin-left: 5px;
+  }
+  .play-instant-img .instant-img1 {
+    margin-left: 80px;
+  }
+  .play-instant-content {
+    text-align: center;
+    margin: 24px 0 10px 200px;
   }
 }
