@@ -558,18 +558,18 @@ footer {
   }
   .footer-heading {
     padding-top: 30px;
-    padding-left: 75px;
+    padding-left: 70px;
   }
   .footer-info,
   .footer-icon {
     padding-top: 30px;
-    padding-left: 5px;
+    padding-left: 0;
     row-gap: 10px;
     text-align: center;
   }
   .footer-policy {
     padding-top: 90px;
-    padding-left: 5px;
+    padding-left: 0;
     text-align: center;
   }
   .footer-ending {
