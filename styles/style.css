@@ -219,10 +219,17 @@ body {
   width: 350px;
   height: 270px;
   text-align: right;
+  margin-top: 240px;
 }
 .play-instant-title {
   font-size: 3rem;
   font-weight: 700;
+}
+.instant-text {
+  color: #f948b2;
+}
+.play-instant-description {
+  margin-top: 24px;
 }
 .play-instant-img .instant-img2 {
   position: relative;
