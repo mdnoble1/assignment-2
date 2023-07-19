@@ -532,7 +532,7 @@ footer {
     height: auto;
     grid-template-columns: 1fr;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 90px;
   }
   .footer-heading,
   .footer-info,
@@ -547,7 +547,7 @@ footer {
   .footer-info,
   .footer-icon,
   .footer-policy {
-    width: 420px;
+    width: 415px;
   }
   .footer-info,
   .footer-icon {
@@ -574,7 +574,7 @@ footer {
   }
   .footer-ending {
     padding-top: 90px;
-    padding-left: 10px;
+    padding-left: 0;
     text-align: center;
   }
 }
