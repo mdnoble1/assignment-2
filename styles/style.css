@@ -554,6 +554,49 @@ footer {
     margin-top: 30px;
     margin-left: 100px;
   }
+  .footer-heading,
+  .footer-info,
+  .footer-icon,
+  .footer-policy,
+  .footer-ending {
+    padding: 0;
+  }
+  footer {
+    width: 425px;
+  }
+  .footer-info,
+  .footer-icon,
+  .footer-policy {
+    width: 420px;
+  }
+  .footer-info,
+  .footer-icon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-policy {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-heading {
+    padding-top: 30px;
+    padding-left: 75px;
+  }
+  .footer-info,
+  .footer-icon {
+    padding-top: 30px;
+    padding-left: 5px;
+    row-gap: 10px;
+    text-align: center;
+  }
+  .footer-policy {
+    padding-top: 90px;
+    padding-left: 5px;
+    text-align: center;
+  }
+  .footer-ending {
+    padding-top: 90px;
+    padding-left: 10px;
+    text-align: center;
+  }
 }
 /* for medium devices */
 
