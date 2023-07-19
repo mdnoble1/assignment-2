@@ -178,6 +178,37 @@ body {
   font-weight: 700;
 }
 
+/* online games section related styles */
+
+.online-game-container {
+  margin: 100px 230px;
+  text-align: center;
+}
+.online-game-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.funny-text {
+  color: #f948b2;
+}
+.online-game-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 48px;
+}
+.online-game-info {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 24px;
+}
+ 
+/* play instantly section related styles */
+.play-instant-container
 /* responsive media query */
 
 /* for small devices */
@@ -208,8 +239,8 @@ body {
   }
   .banner-image img {
     margin: 0;
-  } 
-  
+  }
+
   .banner-image {
     margin: 0 0 0 10px;
   }
@@ -221,15 +252,26 @@ body {
     text-align: center;
   }
   .gamer-img img,
-  .gamer-description {
+  .gamer-description,
+  .online-game-container {
     width: 400px;
   }
   .gamer-img,
   .gamer-content {
     margin: 0;
   }
-  .gamer-description{
+  .gamer-description {
     margin-left: 10px;
+  }
+  .online-game-img {
+    grid-template-columns: 1fr;
+  }
+  .online-game-container {
+    margin: 100px 0 0 10px;
+  }
+  .online-game-info {
+    text-align: center;
+    margin-bottom: 24px;
   }
 }
 
@@ -296,5 +338,16 @@ body {
   }
   .gamer-description {
     margin-left: 80px;
+  }
+  .online-game-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .online-game-container {
+    margin: 100px 0 0 5px;
+  }
+  .online-game-info {
+    text-align: left;
+    margin-bottom: 24px;
+    margin-left: 5px;
   }
 }
