@@ -244,7 +244,7 @@ body {
 .play-game-container {
   display: flex;
   gap: 100px;
-  
+
   margin-left: 250px;
 }
 .play-game-content {
@@ -268,6 +268,9 @@ body {
   margin-right: 150px;
 }
 
+/* careers section related styles */
+
+
 /* responsive media query */
 
 /* for small devices */
@@ -279,7 +282,7 @@ body {
   .play-instant-container {
     flex-direction: column;
   }
-  .banner-container ,
+  .banner-container,
   .play-game-container {
     flex-direction: column-reverse;
   }
@@ -354,10 +357,10 @@ body {
     height: 182px;
     bottom: 100px;
   }
-  .play-instant-container{
+  .play-instant-container {
     margin: 0 10px 0 0;
   }
-  .play-game-container{
+  .play-game-container {
     margin: 0 0 0 10px;
   }
   .play-instant-content {
@@ -384,7 +387,7 @@ body {
   .play-game-container {
     flex-direction: column-reverse;
   }
-  
+
   .navbar-container {
     padding: 0 0 20px 0;
   }
@@ -465,5 +468,4 @@ body {
     text-align: center;
     margin: 24px 0 10px 210px;
   }
-  
 }
