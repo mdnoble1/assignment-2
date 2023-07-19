@@ -206,9 +206,10 @@ body {
   .banner-content {
     width: 400px;
   }
-  .banner-image img. {
+  .banner-image img {
     margin: 0;
-  }
+  } 
+  
   .banner-image {
     margin: 0 0 0 10px;
   }
