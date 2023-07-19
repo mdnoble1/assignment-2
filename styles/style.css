@@ -325,6 +325,56 @@ body {
   text-transform: uppercase;
   margin-top: 40px;
 }
+
+/* button section related styles */
+
+.btn-container {
+  width: 1920px;
+  height: 427px;
+  margin-top: 150px;
+}
+.btn-container button {
+  width: 300px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn-container .button-1 {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+}
+.btn-container .button-2 {
+  display: flex;
+  gap: 30px;
+  margin-top: 80px;
+  margin-left: 340px;
+}
+.button-1 > button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.button-2 > button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.button-title {
+  color: #0b0223;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+button:hover {
+  border: 2px solid #ff42a5;
+  transform: scale(1.2);
+}
+button > h4:hover {
+  color: #ff42a5;
+}
+
 /* responsive media query */
 
 /* for small devices */
