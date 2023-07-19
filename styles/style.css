@@ -157,6 +157,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .gamer-purpose {
   color: #534c64;
@@ -305,6 +306,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 40px;
+  cursor: pointer;
 }
 /* button section related styles */
 .button-container {
@@ -369,6 +371,7 @@ footer {
   color: #fff;
   font-size: 1.1rem;
   font-weight: 600;
+  cursor: pointer;
 }
 .footer-info {
   display: grid;
@@ -385,11 +388,13 @@ footer {
   grid-template-columns: repeat(6, 1fr);
   padding-top: 66px;
   padding-left: 755px;
+  cursor: pointer;
 }
 .footer-policy-title {
   color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   font-weight: 500;
+  cursor: pointer;
 }
 .footer-policy {
   width: 708px;
