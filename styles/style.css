@@ -239,6 +239,35 @@ body {
   margin-left: 150px;
 }
 
+/* play games section related styles */
+
+.play-game-container {
+  display: flex;
+  gap: 100px;
+  
+  margin-left: 250px;
+}
+.play-game-content {
+  width: 350px;
+  height: 270px;
+  text-align: left;
+  margin-top: 240px;
+}
+.play-game-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.play-game-img {
+  text-align: right;
+}
+.game-img2 {
+  position: relative;
+  bottom: 270px;
+}
+.game-img1 {
+  margin-right: 150px;
+}
+
 /* responsive media query */
 
 /* for small devices */
@@ -250,7 +279,8 @@ body {
   .play-instant-container {
     flex-direction: column;
   }
-  .banner-container {
+  .banner-container ,
+  .play-game-container {
     flex-direction: column-reverse;
   }
   .navbar-right > ul {
@@ -309,15 +339,33 @@ body {
     height: 315px;
     margin-left: 60px;
   }
+  .play-game-img .game-img1 {
+    width: 360px;
+    height: 325px;
+    margin-right: 60px;
+  }
   .play-instant-img .instant-img2 {
     width: 159px;
     height: 182px;
     bottom: 100px;
   }
-  .play-instant-container {
+  .play-game-img .game-img2 {
+    width: 159px;
+    height: 182px;
+    bottom: 100px;
+  }
+  .play-instant-container{
+    margin: 0 10px 0 0;
+  }
+  .play-game-container{
     margin: 0 0 0 10px;
   }
   .play-instant-content {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .play-game-content {
     text-align: center;
     margin-top: 10px;
     margin-left: 30px;
@@ -333,6 +381,10 @@ body {
   .play-instant-container {
     flex-direction: column;
   }
+  .play-game-container {
+    flex-direction: column-reverse;
+  }
+  
   .navbar-container {
     padding: 0 0 20px 0;
   }
@@ -359,7 +411,8 @@ body {
   }
 
   .banner-image img,
-  .play-instant-container {
+  .play-instant-container,
+  .play-game-container {
     margin: 0;
   }
   .banner-image {
@@ -404,8 +457,13 @@ body {
   .play-instant-img .instant-img1 {
     margin-left: 80px;
   }
-  .play-instant-content {
-    text-align: center;
-    margin: 24px 0 10px 200px;
+  .play-game-img .game-img1 {
+    margin-right: 80px;
   }
+  .play-instant-content,
+  .play-game-content {
+    text-align: center;
+    margin: 24px 0 10px 210px;
+  }
+  
 }
