@@ -361,6 +361,74 @@ button > h4:hover {
   color: #ff42a5;
 }
 
+/* footer section related styles */
+footer {
+  width: 1920px;
+  height: 636px;
+  background-color: #0b0223;
+}
+.footer-heading {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: 830px;
+}
+
+.footer-title {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.footer-special-text {
+  color: #ff42a5;
+}
+.footer-heading > img {
+  width: 86px;
+  height: 40px;
+}
+.footer-info-title {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.footer-info {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 814px;
+  height: 40px;
+  padding-top: 60px;
+  padding-left: 580px;
+}
+.footer-icon {
+  width: 440px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 66px;
+  padding-left: 755px;
+}
+.footer-policy-title {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.footer-policy {
+  width: 708px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 74px;
+  padding-left: 640px;
+}
+.footer-ending {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-left: 744px;
+}
+
 /* responsive media query */
 
 /* for small devices */
